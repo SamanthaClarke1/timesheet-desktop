@@ -1,0 +1,28 @@
+{
+  "name": "timesheet-desktop",
+  "version": "1.0.0",
+  "description": "A desktop electron wrapper for my timesheet application, with the added functionality of being able to access files/programs on the cumulus server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Clarke123/timesheet-desktop.git"
+  },
+  "keywords": [
+    "timesheet",
+    "timesheets",
+    "desktop-app",
+    "electron"
+  ],
+  "author": "Samuel-Clarke",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Samuel-Clarke123/timesheet-desktop/issues"
+  },
+  "homepage": "https://github.com/Samuel-Clarke123/timesheet-desktop#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
