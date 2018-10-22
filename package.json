@@ -22,7 +22,7 @@
     "url": "https://github.com/Samuel-Clarke123/timesheet-desktop/issues"
   },
   "homepage": "https://github.com/Samuel-Clarke123/timesheet-desktop#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^1.4.13"
+  "dependencies": {
+    "electron": "^3.0.5"
   }
 }
