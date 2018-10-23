@@ -3,17 +3,18 @@ const { app, BrowserWindow } = require('electron');
 let win; //keep a global reference of the window object,
 // otherwise it'll be killed by javscripts garbage collection!
 
+let path = require('path');
+
 app.on('ready', function createWindow() {
 	win = new BrowserWindow({
-		width: 1200,
-		height: 800,
 		minWidth: 400,
 		minHeight: 600,
 		backgroundColor: '#2e2f35',
 		show: false,
+		icon: path.join(__dirname, "assets", "64x64.png")
 	});
 
-	win.loadURL('https://google.com/');
+	win.loadURL('http://192.168.250.85:8000/');
 
 	win.on('closed', () => {
 		//Dereference the window object, usually stores windows in an arr,
