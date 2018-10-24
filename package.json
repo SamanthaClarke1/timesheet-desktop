@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build": "rm -rf ./Timesheets\\!-linux-x64/ ; rm -rf ./releases/development/linux/* ; electron-packager . Timesheets! ; rm -rf ./Timesheets\\!-linux-x64/resources/app/releases/ ; mv ./Timesheets\\!-linux-x64/* ./releases/development/linux ; rm -rf ./Timesheets\\!-linux-x64"
+	"build": "rm -rf ./Timesheets\\!-linux-x64/ ; rm -rf ./releases/development/linux/* ; electron-packager . Timesheets! --icon=./assets/64x64.png ; rm -rf ./Timesheets\\!-linux-x64/resources/app/releases/ ; mv ./Timesheets\\!-linux-x64/* ./releases/development/linux ; rm -rf ./Timesheets\\!-linux-x64",
+	"build-win": "rm -rf ./Timesheets\\!-win32-x64 ; rm -rf ./releases/development/win32/* ; electron-packager . Timesheets! --platform=win32 --icon=./assets/64x64.png ; rm -rf ./Timesheets\\!-win32-x64/resources/app/releases/ ; mv ./Timesheets\\!-win32-x64/* ./releases/development/win32 ; rm -rf ./Timesheets\\!-win32-x64"
   },
   "repository": {
     "type": "git",

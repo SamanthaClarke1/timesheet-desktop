@@ -62,3 +62,7 @@ typings/
 
 #custom
 releases
+Timesheets*
+*.exe
+*.so
+Timesheets*/*
