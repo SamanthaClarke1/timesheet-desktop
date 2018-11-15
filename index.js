@@ -9,6 +9,8 @@ app.on('ready', function createWindow() {
 	win = new BrowserWindow({
 		minWidth: 400,
 		minHeight: 600,
+		width: 1200,
+		height: 800,
 		backgroundColor: '#2e2f35',
 		show: false,
 		icon: path.join(__dirname, "assets", "64x64.png")
