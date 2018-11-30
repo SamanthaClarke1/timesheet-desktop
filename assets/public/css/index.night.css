@@ -1,0 +1,44 @@
+.missing-bar {
+	background: #4e2a2a;
+}
+.total-day-bar {
+	background: #4c7c6d;
+}
+.total-bar {
+	background: #4c7c6d;
+}
+.subnav-toggler {
+	background: #2f363f;
+	z-index: 2;
+}
+.sub-nav {
+	text-align: center;
+	background: #2f363f;
+	padding: 5px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+a.nav-link.sub-nav-link.red {
+	color: #ff3c42;
+}
+a.nav-link.sub-nav-link.yellow {
+	color: #ffd449;
+}
+a.nav-link.sub-nav-link.green {
+	color: rgb(74, 196, 94);
+}
+a.nav-link.sub-nav-link.grey {
+	color: #6a6a6e;
+}
+a.nav-link.sub-nav-link.red.active, a.nav-link.sub-nav-link.red:hover {
+	color: #ed716c;
+}
+a.nav-link.sub-nav-link.yellow.active, a.nav-link.sub-nav-link.yellow:hover {
+	color: #edd578;
+}
+a.nav-link.sub-nav-link.green.active, a.nav-link.sub-nav-link.green:hover {
+	color: rgb(115, 219, 143);
+}
+a.nav-link.sub-nav-link.grey.active, a.nav-link.sub-nav-link.gray:hover {
+	color: #adadad;
+}
